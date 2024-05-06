@@ -1,0 +1,90 @@
+		/*nav*/
+		/*nav Function*/
+		#nav_menu ul {
+			list-style: none;
+			position: relative;  
+		}
+		#nav_menu ul li {
+			float: left;
+			
+		}
+		#nav_menu ul ul {
+			display: none;        
+			position: relative;
+			left: -2px;
+			top: 0;            
+		}
+		#nav_menu ul ul li {
+			float: none;           
+		}
+		#nav_menu ul li:hover > ul {
+			display: block;        
+			z-index: 1;
+		}
+		#nav_menu > ul::after {
+			content: "";
+			display: block;
+			clear: both;
+		}	
+		/*nav decor*/
+		#nav_menu {
+			font-family: C64Pro, sans-serif;
+
+		}
+		#nav_menu ul {
+			list-style: none;
+		}
+		#nav_menu ul li {
+			float: left;
+			border-bottom: 3px solid darkslategray;
+			width: 12.5%;
+			
+		}
+		#nav_menu ul li a {
+			text-align: center;
+			font-family: C64Pro, sans-serif;
+			display: block;
+			padding: 1.5em 0;     
+			text-decoration: none;
+			background-color: rgb(80, 80, 80);
+			color: rgb(0, 127, 255);
+			font-weight: bold;
+			border-right: 3px solid rgb(50, 80, 80)
+		}
+		#nav_menu ul li a.lastitem {
+			border-right: none;
+		}	
+		#nav_menu ul li a.current { color: yellow; }
+
+		#nav_menu ul li ul li {
+			width: 100%;
+			border-left: 2px solid darkslategray
+		}
+		#nav_menu ul li ul li.firstitem {
+			width: 100%;
+			border-top: 3px solid darkslategray
+		}
+        
+		/* page summary outline*/
+		#outline ul li a:link, #outline ul li a:visited{
+			color: darkturquoise;
+			font-weight: normal;
+		}
+		#outline ul{
+			padding-left: 24px;
+			list-style-type: none;
+		}
+        #outline {
+			font-family: orbitron, sans-serif;
+			font-weight: bold;
+			width: 20%;
+			font-size: 85%;
+            background-color: rgb(80, 80, 80);
+			height: auto;
+			min-width: 128px;
+            position: fixed;
+
+            top: 72px;
+            left: 0;
+			border: 2px solid darkslategray;
+		}

@@ -1,0 +1,21 @@
+/* fonts */ 
+@font-face {
+    font-family: "orbitron";
+    src: url('fonts/Orbitron/Orbitron-VariableFont_wght.ttf');
+  }
+@font-face {
+    font-family: "ubuntu";
+    src: url('fonts/Ubuntu/Ubuntu-Regular.ttf') font-weight-normal;
+    src: url('fonts/Ubuntu/Ubuntu-Bold.ttf') font-weight-bolder;
+    src: url('fonts/Ubuntu/Ubuntu-Medium.ttf') font-weight-bold;
+    src: url('fonts/Ubuntu/Ubuntu-Light.ttf') font-weight-light;
+}
+
+@font-face {
+    font-family: "C64Pro";
+    src: url('fonts/c64_pro/C64_Pro-STYLE.eot');
+    src: url('fonts/c64_pro/C64_Pro-STYLE.eot') format('embedded-opentype'),
+         url('fonts/c64_pro/C64_Pro-STYLE.woff2') format('woff2'),
+         url('fonts/c64_pro/C64_Pro-STYLE.woff') format('woff'),
+         url('fonts/c64_pro/C64_Pro-STYLE.ttf') format('truetype');
+  }

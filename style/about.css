@@ -1,0 +1,25 @@
+		/*paragraph*/
+		#logo {
+			float: inline-start;
+			border-radius: 0 64px 64px 0;
+			background-color: white;
+			border-right: 5px solid rgb(57, 89, 121);
+			border-top: 5px solid rgb(57, 89, 121);
+			border-bottom: 5px solid rgb(57, 89, 121);
+			border-left: 5px solid slategray;
+		}
+		#aboutp {
+			float: inline-end;
+		}
+		.members {
+			float:left;
+			margin-left: 1px;
+			border-radius: 64px 64px 64px 64px;
+			background-color: white;
+			border: 5px solid rgb(57, 89, 121);
+
+		}
+        
+		#goals	{
+			padding-left: 3em;
+		}
