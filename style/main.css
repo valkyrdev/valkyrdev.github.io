@@ -16,8 +16,8 @@
 			clear: both;
 			margin: 15px auto;
 			border: 1px solid black; 
-			height: 1000px;
-				width: auto;
+			height: 90%;
+				width: 98.2%;
 				clear: both;
 				background-image: url(/img/noiseTexturedark.png);	
 			}
@@ -27,6 +27,7 @@
 			right: 1px;
 			top: 3.5em;
 			width: 78%;
+			height: 1000px;
 		}
 
 		body main h2 {
@@ -48,6 +49,29 @@
 
 		/* footer */
 		footer {
-			clear: both;
-			border-top: 2px solid #ef9c00; }
-	
+			padding: .25em;
+			position: relative;
+			background-color: rgb(67, 149, 182);
+			left: 16.5%;
+			width: 76%;
+			height: 7em;
+			top: 920px;
+			border: 3px solid slategray;
+			border-top: 2px solid #ef9c00; 
+			margin:0 4.5em 0;
+			
+		}
+		footer p {
+			width: 75%;
+			font-family: ubuntu, sans-serif;
+			margin-left: 1em;
+			float: inline-start;
+		}
+
+		/* footer aside */
+		#footaside {
+			font-size: 150%;
+			font-family: orbitron, sans-serif;
+			margin-right: 1em;
+			float: inline-end;
+		}

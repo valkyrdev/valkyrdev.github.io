@@ -39,6 +39,7 @@
 			border-bottom: 3px solid darkslategray;
 			width: 12.5%;
 			
+			
 		}
 		#nav_menu ul li a {
 			text-align: center;
@@ -49,7 +50,7 @@
 			background-color: rgb(80, 80, 80);
 			color: rgb(0, 127, 255);
 			font-weight: bold;
-			border-right: 3px solid rgb(50, 80, 80)
+			border-right: 3px solid rgb(50, 80, 80);
 		}
 		#nav_menu ul li a.lastitem {
 			border-right: none;
@@ -58,11 +59,13 @@
 
 		#nav_menu ul li ul li {
 			width: 100%;
-			border-left: 2px solid darkslategray
+			border-left: 2px solid darkslategray;
+			
 		}
 		#nav_menu ul li ul li.firstitem {
 			width: 100%;
-			border-top: 3px solid darkslategray
+			border-top: 3px solid darkslategray;
+			display: block;
 		}
         
 		/* page summary outline*/
