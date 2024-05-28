@@ -27,7 +27,7 @@
 			right: 1px;
 			top: 3.5em;
 			width: 78%;
-			height: 1000px;
+			
 		}
 
 		body main h2 {
@@ -55,11 +55,9 @@
 			left: 16.5%;
 			width: 76%;
 			height: 7em;
-			top: 920px;
 			border: 3px solid slategray;
 			border-top: 2px solid #ef9c00; 
 			margin:0 4.5em 0;
-			
 		}
 		footer p {
 			width: 75%;

@@ -1,4 +1,4 @@
-		/*paragraph*/
+		/*about page specific contents*/
 		#logo {
 			float: inline-start;
 			border-radius: 0 64px 64px 0;
@@ -22,4 +22,10 @@
         
 		#goals	{
 			padding-left: 3em;
+		}
+		.content{
+			height: 1000px;
+		}
+		footer{
+			top: 920px;
 		}

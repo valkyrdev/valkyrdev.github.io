@@ -6,13 +6,12 @@
 		}
 		#nav_menu ul li {
 			float: left;
-			
 		}
 		#nav_menu ul ul {
 			display: none;        
 			position: relative;
 			left: -2px;
-			top: 0;            
+			top: -8px;            
 		}
 		#nav_menu ul ul li {
 			float: none;           
@@ -29,7 +28,6 @@
 		/*nav decor*/
 		#nav_menu {
 			font-family: C64Pro, sans-serif;
-
 		}
 		#nav_menu ul {
 			list-style: none;
@@ -38,8 +36,6 @@
 			float: left;
 			border-bottom: 3px solid darkslategray;
 			width: 12.5%;
-			
-			
 		}
 		#nav_menu ul li a {
 			text-align: center;
@@ -60,7 +56,6 @@
 		#nav_menu ul li ul li {
 			width: 100%;
 			border-left: 2px solid darkslategray;
-			
 		}
 		#nav_menu ul li ul li.firstitem {
 			width: 100%;

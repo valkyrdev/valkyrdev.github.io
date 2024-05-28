@@ -1,0 +1,22 @@
+/* gallery page specific contents */
+main table {
+    border-collapse: collapse;
+    width: 78%;
+    position: relative;
+    left: 10%;
+    margin-top: .5em;
+}
+main table tr td{
+    width: 32%;
+}
+
+main table tr td img{
+    width: 100%;
+    border: 3px solid slategray;
+}
+.content{
+    height: 2100px;
+}
+footer{
+    top: 1920px;
+}
