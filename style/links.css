@@ -1,0 +1,23 @@
+.content{
+    height: 1000px;
+}
+footer{
+    top: 920px;
+}
+
+main p a:link, main p a:visited{
+    color: rgb(255, 187, 0);
+    font-family: c64pro;
+    font-weight: normal;
+}
+
+main p a{
+    float: left;
+    margin: .75em;
+    text-align: center;
+}
+
+main p a img{
+ position: relative;
+    left: 0;
+}

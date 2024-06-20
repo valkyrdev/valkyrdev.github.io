@@ -17,15 +17,30 @@
 			border-radius: 64px 64px 64px 64px;
 			background-color: white;
 			border: 5px solid rgb(57, 89, 121);
-
 		}
         
 		#goals	{
 			padding-left: 3em;
 		}
 		.content{
-			height: 1000px;
+			height: 1200px;
+		}
+		#projectsul {
+			background-color: rgb(67, 149, 182);
+			position: relative;
+			border: 3px solid slategray;
+			margin:0 4.5em 0;
+			font-family: ubuntu, sans-serif;
+		}
+		#projectsul li a:link, #projectsul li a:visited{
+			color: rgb(255, 187, 0);
+			font-family: c64pro;
+			font-weight: normal;
+		}
+		#projectsul li {
+			margin:0 2em 0;
+			font-family: ubuntu, sans-serif;
 		}
 		footer{
-			top: 920px;
+			top: 1120px;
 		}

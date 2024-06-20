@@ -3,7 +3,7 @@
 		* {
 			margin: 0;
 			padding: 0; }
-		html { background-image: url(/img/noiseTexturelight2.png); }
+		html { background-image: url(../img/noisetexturelight2.png); }
 
 		
 		/* the styles for the header, main content, sidebar, and footer */
@@ -19,7 +19,7 @@
 			height: 90%;
 				width: 98.2%;
 				clear: both;
-				background-image: url(/img/noiseTexturedark.png);	
+				background-image: url(../img/noisetexturedark.png);	
 			}
 			
 		.content {

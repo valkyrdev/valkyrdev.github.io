@@ -1,0 +1,24 @@
+.content{
+    height: 1500px;
+}
+footer{
+    top: 1320px;
+}
+.list {
+    background-color: rgb(67, 149, 182);
+    position: relative;
+    border: 3px solid slategray;
+    margin:0 4.5em 0;
+    font-family: ubuntu, sans-serif;
+}
+
+.list li {
+    margin:0 2em 0;
+    font-family: ubuntu, sans-serif;
+}
+
+.list li a:link, .lists li a:visited{
+    color: rgb(255, 187, 0);
+    font-family: c64pro;
+    font-weight: normal;
+}
